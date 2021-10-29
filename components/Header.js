@@ -12,7 +12,7 @@ export const LinkBtn = styled(TextLink)`
 
 export const Header = () => {
   return (
-    <header className="w-full fixed flex justify-between items-center border-b border-gray-900">
+    <header className="w-full flex justify-between items-center border-b border-gray-900">
       <h1 className="p-4">Off the Rook</h1>
       <nav>
         <TextLink href="/">Pieces</TextLink>

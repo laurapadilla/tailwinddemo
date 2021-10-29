@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply border-2 px-8 py-3 flex justify-center font-mono md:text-lg md:py-4 md:px-10 rounded-lg transition-all mb-4 shadow-lg relative active:top-1
+    }
+}
+
+.btn-primary {
+    @apply btn;
+    @apply bg-primary-900 text-white hover:bg-primary-700 
+}
+
+.btn-secondary {
+    @apply btn;
+    @apply bg-primary-50 text-gray-900 hover:bg-primary-900 hover:text-white border-primary-900
+}
